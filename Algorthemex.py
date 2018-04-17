@@ -1,4 +1,3 @@
-
 #第1题 `两数之和`
 def twosum(self,set,target):
 	d={}
