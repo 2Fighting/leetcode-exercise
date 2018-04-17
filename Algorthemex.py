@@ -8,3 +8,12 @@ def twosum(self,set,target):
 		else:
 			d[sub]=i
 		return A
+#第14题·最长子序列·
+def longsub(self,strs):
+	if not strs:
+		return ""
+	for i,regroup in enumerate(zip(*strs)):
+		if len(set(regroup))>1:
+			return strs[0][:i]
+		else:
+			return min（str)
